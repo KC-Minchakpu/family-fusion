@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Family Fusion | Resources</title>
+  <meta name="description"
+        content="WDD 131 – Dynamic Web Fundamentals – Mary Chidiebere Asoya – personal profile, Nigeria background, web development resources.">
+  <meta name="author" content="Janet Ojochide Daniel">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Play:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <script src="scripts/main.js" defer></script>
+  <script src="scripts/navbar.js" defer></script>
+  <script src="scripts/resources.js" defer></script>
+</head>
+
+<body>
+<!--Header and Navigation-->
+<header class="navbar">
+  <div class="navbar-container">
+    
+    <!-- LOGO -->
+    <div class="logo">
+      <img src="images/logo.png" alt="Logo">
+      <div class="logo-text">
+        <h1>FAMILY FUSION</h1>
+        <span class="tagline">Building stronger families 🌿</span>
+      </div>
+    </div>
+
+    <!-- HAMBURGER -->
+    <button type="button" class="hamburger" id="hamburger" title="Toggle navigation menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <!-- NAV LINKS -->
+    <nav class="nav-menu" id="navMenu">
+      <a href="index.html">Home</a>
+      <a href="about-us.html">About Us</a>
+      <a href="resources.html" class="active">Resources</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact-us.html">Contact Us</a>
+      <button type="button" href="sign-up.html" class="signup-btn">Sign Up</button>
+    </nav>
+
+  </div>
+</header>
+
+
+<main>
+    <section class="about-banner">
+  <div class="overlay">
+    <h1>RESOURCES</h1>
+  </div>
+</section>
+<section class="resources-section">
+    <div class="container">
+      <div class="resources-header">
+               <p>Discover articles, guides, and practical tools designed to strengthen family relationships, improve parenting skills, and support healthy family development. Learn how to communicate effectively, resolve conflicts peacefully, build emotional connections, and create a supportive home environment where every family member can thrive.</p>
+      </div>
+
+      <div id="resources-container" class="resources-container">
+        <!-- Dynamic resource cards will load here -->
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-content">
+
+    <!-- Social Icons (Images) -->
+    <div class="social-icons">
+      <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+      <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+      <a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a>
+      <a href="#"><img src="images/youtube.png" alt="YouTube"></a>
+    </div>
+
+    <!-- Copyright -->
+    <p class="footer-text">
+       ©<span id="currentyear"></span> | <a href="#">🌸 Mary Chidiebere Asoya 🌸 Nigeria</a>
+    </p>
+
+    <!-- Links -->
+    <div class="footer-links">
+      <p id="lastModified"></p>
+      <span>/</span>
+      <a href="references.html">References</a>
+    </div>
+
+  </div>
+</footer>
+
+</body>
+</html>
