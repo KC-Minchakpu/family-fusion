@@ -1,67 +1,155 @@
 const posts = [
-    {
-    "category": "Mental Health, Wellness",
-    "title": "Finding Light Again: Small Steps Out of Depression",
-    "date": "10.05.2026",
-    "image": "images/depression.jpg",
-    "alt": "A depressed Lady",
-    "text": "Depression can make even the smallest tasks feel overwhelming, but healing doesn’t have to happen all at once. Sometimes, the first step is simply getting out of bed, opening a window, or taking a few deep breaths. These small moments matter more than they seem.",
-    "author": "Mary Johnson",
-    "readingTime": "4 min read"
-    
+  {
+    "image": "images/family-communication.jpg",
+    "category": "Family Life, Communication",
+    "date": "2023-06-01",
+    "title": "Building Stronger Family Communication",
+    "text": "Healthy families communicate openly and respectfully. Learning to listen actively and express feelings clearly strengthens trust and reduces conflict at home.",
+    "author": "Better Health Channel",
+    "authorRole": "Health Organization",
+    "link": "https://www.betterhealth.vic.gov.au/health/healthyliving/relationships-and-communication"
   },
   {
-    "category": "Health, Wellness",
-    "title": "Moving Forward: How Exercise Supports Mental Health",
-    "date": "21.04.2026",
-    "image": "images/exercise.jpg",
-    "alt": "A person exercising in the park",
-    "text": "When you’re struggling with your mental health, the idea of exercise can feel overwhelming—but movement doesn’t have to be intense to make a difference. Even small, gentle activities like a short walk, stretching, or dancing to your favorite song can help lift your mood and clear your mind.",
-    "author": "Kevin Minchakpu",
-    "readingTime": "4 min read"
+    "image": "images/parenting.jpg",
+    "category": "Parenting, Development",
+    "date": "2023-03-15",
+    "title": "Positive Parenting for Lifelong Impact",
+    "text": "Positive parenting focuses on guidance, encouragement, and consistency, helping children develop confidence, responsibility, and emotional security.",
+    "author": "CDC",
+    "authorRole": "Public Health Organization",
+    "link": "https://www.cdc.gov/parents/essentials/index.html"
   },
   {
-    "category": "Wellness",
-    "title": "Creating Healthy Daily Habits",
-    "date": "15.04.2026",
-    "image": "images/depressed.jpg",
-    "alt": "Healthy habits",
-    "text": "Healthy habits create structure and balance in everyday life, which can be especially beneficial for mental health. Start small by setting a consistent sleep schedule, eating nourishing meals, or dedicating a few minutes each day to mindfulness or journaling. These habits can provide a sense of stability and self-care.",
-    "author": "Mary Johnson",
-    "readingTime": "3 min read"
-},
+    "image": "images/family-time.jpg",
+    "category": "Family Bonding, Lifestyle",
+    "date": "2022-09-10",
+    "title": "The Power of Quality Family Time",
+    "text": "Spending intentional time together strengthens relationships, builds trust, and creates lasting memories that support emotional wellbeing.",
+    "author": "University of Minnesota Extension",
+    "authorRole": "Educational Institution",
+    "link": "https://www.extension.umn.edu/family/family-traditions/"
+  },
   {
-    "category": "Mental Health",
-    "title": "Understanding Anxiety and How to Manage It",
-    "date": "01.04.2026",
-    "image": "images/anxiety.jpg",
-    "alt": "Anxiety awareness",
-    "text": "Anxiety affects millions of people worldwide, but simple techniques can help manage it. Deep breathing exercises, grounding techniques, and mindfulness can provide relief during anxious moments. Remember, it’s okay to ask for help and seek support when needed.",
-    "author": "Kevin Minchakpu",
-    "readingTime": "5 min read",
-},
+    "image": "images/support-family.jpg",
+    "category": "Support, Relationships",
+    "date": "2023-01-20",
+    "title": "Creating a Supportive Family Environment",
+    "text": "A supportive home environment helps individuals feel valued and understood, fostering resilience and emotional growth.",
+    "author": "American Psychological Association",
+    "authorRole": "Professional Organization",
+    "link": "https://www.apa.org/topics/family-life"
+  },
   {
-    "category": "Self Growth",
-    "title": "The Importance of Self Care",
-    "date": "18.03.2026",
-    "image": "images/self-care.jpg",
-    "alt": "Self care",
-    "text": "Taking care of yourself is essential for maintaining good mental and emotional health. Self-care can be as simple as taking a relaxing bath, reading a book, or spending time in nature. Prioritizing self-care helps you recharge and build resilience against life’s challenges.",
-    "author": "Mary Johnson",
-    "readingTime": "4 min read",
-     },
+    "image": "images/mindful-family.jpg",
+    "category": "Mindfulness, Family Life",
+    "date": "2022-11-05",
+    "title": "Practicing Mindfulness as a Family",
+    "text": "Mindfulness can help families stay present, manage stress, and respond to challenges with patience and understanding.",
+    "author": "Mayo Clinic",
+    "authorRole": "Medical Center",
+    "link": "https://www.mayoclinic.org/tests-procedures/meditation/in-depth/mindfulness-exercises/art-20046356"
+  },
   {
-    "category": "Wellness",
-    "title": "Building a Positive Mindset",
-    "date": "02.03.2026",
-    "image": "images/mindset.jpg",
-    "alt": "Positive mindset",
-    "text": "A positive mindset helps you navigate life challenges with resilience and optimism. Practice gratitude, focus on your strengths, and surround yourself with supportive people. Remember, cultivating a positive mindset is a journey, and it’s okay to have setbacks along the way.",
-    "author": "Kevin Minchakpu",
-    "readingTime": "3 min read",
-    
+    "image": "images/healthy-living.jpg",
+    "category": "Health, Family Wellness",
+    "date": "2023-04-01",
+    "title": "Promoting Healthy Living in the Family",
+    "text": "Healthy habits such as regular exercise, balanced nutrition, and proper sleep improve both physical and emotional wellbeing in families.",
+    "author": "CDC",
+    "authorRole": "Public Health Organization",
+    "link": "https://www.cdc.gov/family/index.htm"
+  },
+  {
+    "image": "images/conflict.jpg",
+    "category": "Conflict Resolution, Relationships",
+    "date": "2023-02-12",
+    "title": "Resolving Family Conflicts Peacefully",
+    "text": "Conflict is natural, but learning to manage disagreements respectfully helps maintain strong and healthy relationships.",
+    "author": "HelpGuide",
+    "authorRole": "Nonprofit Organization",
+    "link": "https://www.helpguide.org/articles/relationships-communication/conflict-resolution-skills.htm"
+  },
+  {
+    "image": "images/routines.jpg",
+    "category": "Family Life, Structure",
+    "date": "2021-08-18",
+    "title": "Creating Healthy Family Routines",
+    "text": "Consistent routines provide stability, reduce stress, and help children feel safe and secure in their daily lives.",
+    "author": "Zero to Three",
+    "authorRole": "Child Development Organization",
+    "link": "https://www.zerotothree.org/resource/establishing-routines/"
+  },
+  {
+    "image": "images/marriage.jpg",
+    "category": "Marriage, Relationships",
+    "date": "2023-05-10",
+    "title": "Strengthening Marital Relationships",
+    "text": "Healthy marriages are built on trust, communication, and shared goals, which create a strong foundation for the entire family.",
+    "author": "Gottman Institute",
+    "authorRole": "Relationship Research Institute",
+    "link": "https://www.gottman.com/blog/"
+  },
+  {
+    "image": "images/teens.jpg",
+    "category": "Parenting, Adolescents",
+    "date": "2023-01-05",
+    "title": "Understanding and Parenting Teenagers",
+    "text": "Adolescence is a time of growth and change. Supportive parenting helps teens navigate emotions, identity, and independence.",
+    "author": "American Psychological Association",
+    "authorRole": "Professional Organization",
+    "link": "https://www.apa.org/topics/parenting/teens"
+  },
+  {
+    "image": "images/finance.jpg",
+    "category": "Finance, Family Life",
+    "date": "2023-03-01",
+    "title": "Managing Family Finances Wisely",
+    "text": "Financial planning and budgeting reduce stress and help families achieve long-term stability and shared goals.",
+    "author": "Consumer Financial Protection Bureau",
+    "authorRole": "Government Agency",
+    "link": "https://www.consumerfinance.gov/consumer-tools/"
+  },
+  {
+    "image": "images/digital.jpg",
+    "category": "Technology, Parenting",
+    "date": "2023-02-25",
+    "title": "Raising Digitally Responsible Children",
+    "text": "Teaching children safe and balanced technology use is essential for their development and wellbeing in a digital world.",
+    "author": "Common Sense Media",
+    "authorRole": "Nonprofit Organization",
+    "link": "https://www.commonsensemedia.org/family-tech-planners"
+  },
+  {
+    "image": "images/emotions.jpg",
+    "category": "Emotional Development, Children",
+    "date": "2022-10-14",
+    "title": "Helping Children Build Emotional Intelligence",
+    "text": "Children who understand and manage their emotions are better equipped to form healthy relationships and succeed in life.",
+    "author": "CASEL",
+    "authorRole": "Education Organization",
+    "link": "https://casel.org/fundamentals-of-sel/"
+  },
+  {
+    "image": "images/blended.jpg",
+    "category": "Family Structure, Relationships",
+    "date": "2022-06-30",
+    "title": "Thriving in Blended Families",
+    "text": "Blended families can succeed with patience, clear roles, and open communication among all members.",
+    "author": "Stepfamilies.info",
+    "authorRole": "Family Resource Organization",
+    "link": "https://www.stepfamilies.info/"
+  },
+  {
+    "image": "images/education-support.jpg",
+    "category": "Education, Parenting",
+    "date": "2023-01-12",
+    "title": "Supporting Children’s Learning at Home",
+    "text": "Parental involvement in education boosts children’s confidence, motivation, and academic success.",
+    "author": "Edutopia",
+    "authorRole": "Education Organization",
+    "link": "https://www.edutopia.org/article/parental-involvement-research"
   }
-];
+]
 
 const container = document.getElementById("blog-container");
 
@@ -69,29 +157,27 @@ posts.forEach((post, index) => {
 
   const reverseClass = index % 2 !== 0 ? "reverse" : "";
 
- const blogHTML = `
-  <div class="blog-row ${reverseClass}">
-    
-    <div class="blog-image">
-      <img src="${post.image}" alt="${post.alt}">
-    </div>
-
-    <div class="blog-content">
-      <a href="#" class="category">${post.category}</a>
-      <h3>${post.title}</h3>
-
-      <!-- Meta Info -->
-      <div class="meta">
-        <span class="author">By ${post.author}</span>
-        <span class="dot">•</span>
-        <span class="date">${post.date}</span>
-        <span class="dot">•</span>
-        <span class="read-time">${post.readTime}</span>
+  const blogHTML = `
+    <div class="blog-row ${reverseClass}">
+      
+      <div class="blog-image">
+        <img src="${post.image}" alt="${post.title}">
       </div>
 
-      <p>${post.text}</p>
+      <div class="blog-content">
+        <a href="#" class="category">${post.category}</a>
+        <h3>${post.title}</h3>
 
-    <a href="#" class="blog-btn">Read more</a>
+        <!-- Meta Info -->
+        <div class="meta">
+          <span class="author">By ${post.author}</span>
+          <span class="dot">•</span>
+          <span class="date">${post.date}</span>
+        </div>
+
+        <p>${post.text}</p>
+
+        <a href="${post.link}" class="blog-btn" target="_blank">Read more</a>
       </div>
     </div>
   `;
