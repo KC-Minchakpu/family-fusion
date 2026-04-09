@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Family Fusion | Blog</title>
+  <title>Family Fusion | Home</title>
   <meta name="description"
         content="Family Fusion is a community for families to connect, share experiences, and find support.">
   <meta name="author" content="Janet Ojochide Daniel">
@@ -16,8 +16,8 @@
   <link rel="stylesheet" href="styles/small.css">
   <link rel="stylesheet" href="styles/larger.css">
   <script src="scripts/main.js" defer></script>
-  <script src="scripts/navbar.js" defer></script>
-  <script src="scripts/blog.js" defer></script>
+   <script src="scripts/navbar.js" defer></script>
+   
 </head>
 
 <body>
@@ -27,7 +27,7 @@
     
     <!-- LOGO -->
     <div class="logo">
-      <img src="images/solace-logo.png" alt="Logo">
+      <img src="images/logo.png" alt="Logo">
       <div class="logo-text">
         <h1>FAMILY FUSION</h1>
         <span class="tagline">Building stronger families 🌿</span>
@@ -43,10 +43,12 @@
 
     <!-- NAV LINKS -->
     <nav class="nav-menu" id="navMenu">
-      <a href="index.html" >Home</a>
+      <a href="index.html">Home</a>
       <a href="about-us.html">About Us</a>
+      <a href="sessions.html">Sessions</a>
+      <a href="schedule.html" class="active">Schedule</a>
       <a href="resources.html">Resources</a>
-      <a href="blog.html" class="active">Blog</a>
+      <a href="blog.html">Blog</a>
       <a href="contact-us.html">Contact Us</a>
       <button type="button" href="sign-up.html" class="signup-btn">Sign Up</button>
     </nav>
@@ -54,30 +56,86 @@
   </div>
 </header>
 
+
 <main>
-    <section class="about-banner">
-  <div class="overlay">
-    <h1>BLOG</h1>
-  </div>
-</section>
 
-<section class="blog-section">
-
+    <section class="schedule">
   <div class="container">
 
-    <!-- Section Header -->
-    <div class="blog-header">
-      <span class="subtitle">Read More</span>
-      <h2>Our Blog</h2>
-      <p>
-        Welcome to the Family Fusion Blog—a space where we share insights, stories, and practical advice to help families thrive. Our blog covers a wide range of topics including parenting tips, relationship advice, family activities, and personal growth strategies. Whether you're looking for ways to strengthen your family bonds, navigate challenges, or simply find inspiration for your family journey, our blog offers valuable content to support you every step of the way.
+    <h2 class="section-title">Workshop Schedule</h2>
+
+    <!-- Table -->
+    <div class="table-wrapper">
+      <table class="schedule-table">
+        <thead>
+          <tr>
+            <th>Session</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Location</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Session 1</td>
+            <td>March 21st, 2026</td>
+            <td>10:00 AM – 12:00 PM</td>
+            <td>Abuja</td>
+          </tr>
+          <tr>
+            <td>Session 2</td>
+            <td>April 11th, 2026</td>
+            <td>10:00 AM – 12:00 PM</td>
+            <td>Abuja</td>
+          </tr>
+          <tr>
+            <td>Session 3</td>
+            <td>April 18th, 2026</td>
+            <td>10:00 AM – 12:00 PM</td>
+            <td>Abuja</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Venue Card -->
+    <div class="venue-card">
+      <h3>📍 Venue</h3>
+      <p class="venue-name">Family Life Center, Abuja</p>
+      <p class="venue-address">
+        #40 Accra Street, Wuse Zone 5 Abuja, FCT
       </p>
     </div>
 
-    <div id="blog-container"></div>
+    <!-- Directions -->
+    <div class="directions">
+      <h3>How to Find Us</h3>
+      <p>
+        Our workshop venue is easily accessible from major areas in Abuja.
+      </p>
+      <ul>
+        <li>Located near a major junction in Wuse Zone 5</li>
+        <li>Accessible by public transport and car</li>
+      </ul>
+
+      <p class="map-note">
+        Search <strong>“Family Life Center Abuja”</strong> on Google Maps for directions.
+      </p>
+    </div>
+
+    <!-- Optional Map Embed -->
+    <div class="map-container">
+      <iframe 
+        src="https://maps.google.com/maps?q=Family%20Life%20Center%20Abuja&t=&z=15&ie=UTF8&iwloc=&output=embed"
+        frameborder="0"
+        allowfullscreen
+        title="Google Map showing Family Life Center location in Abuja">
+      </iframe>
+    </div>
 
   </div>
-
+</section>
+  
 </main>
 
 <footer class="site-footer">
@@ -99,8 +157,6 @@
     <!-- Links -->
     <div class="footer-links">
       <p id="lastModified"></p>
-      <span>/</span>
-      <a href="references.html">References</a>
     </div>
 
   </div>

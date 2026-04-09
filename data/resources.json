@@ -3,7 +3,7 @@
     "title": "Strengthening Family Relationships",
     "description": "Learn practical ways to build trust, improve communication, and create stronger emotional bonds within families.",
     "image": "images/family-8.jpg",
-    "link": "https://www.extension.purdue.edu/extmedia/cfs/cfs-744-w.pdf"
+    "link": "https://www.churchofjesuschrist.org/study/new-era/2011/02/parents-and-children-listening-learning-and-loving?lang=eng"
   },
   {
     "title": "Effective Parenting Strategies",
@@ -27,19 +27,19 @@
     "title": "Teaching Values and Life Skills",
     "description": "Understand how to guide children and adolescents in developing responsibility, respect, and strong moral values.",
     "image": "images/values.jpg",
-    "link": "https://www.search-institute.org/our-research/development-assets/"
+    "link": "https://www.churchofjesuschrist.org/study/ensign/2020/09/teaching-children-essential-life-skills?lang=eng"
   },
   {
     "title": "Balancing Work and Family Life",
     "description": "Find strategies to manage responsibilities, reduce burnout, and create a healthy balance between work and home life.",
     "image": "images/work-life-balance.jpg",
-    "link": "https://www.helpguide.org/articles/work/career-work-life-balance.htm"
+    "link": "https://ors.od.nih.gov/sr/dohs/Documents/balancing-work-and-family.pdf"
   },
   {
     "title": "Building Strong Marriages",
     "description": "Learn key principles such as commitment, communication, and conflict resolution that strengthen marital relationships.",
     "image": "images/marriage.jpg",
-    "link": "https://www.gottman.com/blog/"
+    "link": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/marriage-watch-and-learn?lang=eng"
   },
   {
     "title": "Parenting Adolescents Effectively",
@@ -51,42 +51,42 @@
     "title": "Family Financial Management",
     "description": "Explore budgeting, saving, and financial planning strategies that promote stability and reduce family conflict.",
     "image": "images/finance.jpg",
-    "link": "https://www.consumerfinance.gov/consumer-tools/"
+    "link": "https://www.churchofjesuschrist.org/study/manual/duties-and-blessings-of-the-priesthood-basic-manual-for-priesthood-holders-part-a/personal-and-family-responsibilities/lesson-21-managing-family-finances?lang=eng"
   },
   {
     "title": "Digital Safety for Families",
     "description": "Learn how to protect children online and create healthy boundaries for technology use in the home.",
     "image": "images/digital-safety.jpg",
-    "link": "https://www.commonsensemedia.org/family-tech-planners"
+    "link": "https://www.churchofjesuschrist.org/study/manual/abuse-prevention-and-protection/using-technology-safely?lang=eng"
   },
   {
     "title": "Promoting Emotional Intelligence in Children",
     "description": "Help children recognize, understand, and manage their emotions while building empathy for others.",
     "image": "images/emotional-intelligence.jpg",
-    "link": "https://casel.org/fundamentals-of-sel/"
+    "link": "https://www.helpguide.org/family/parenting/raising-emotionally-intelligent-children"
   },
   {
     "title": "Conflict Resolution in Families",
     "description": "Discover strategies for resolving disagreements peacefully and maintaining healthy relationships.",
-    "image": "images/conflict-resolution.jpg",
+    "image": "images/conflict.jpg",
     "link": "https://www.helpguide.org/articles/relationships-communication/conflict-resolution-skills.htm"
   },
   {
     "title": "Blended Family Success",
     "description": "Gain insights on navigating relationships, roles, and expectations in blended or stepfamilies.",
-    "image": "images/blended-family.jpg",
-    "link": "https://www.stepfamilies.info/"
+    "image": "images/blended.jpg",
+    "link": "https://www.helpguide.org/family/parenting/step-parenting-blended-families"
   },
   {
     "title": "Family Traditions and Bonding",
     "description": "Explore how shared activities and traditions can strengthen identity and connection within families.",
-    "image": "images/traditions.jpg",
-    "link": "https://www.extension.umn.edu/family/family-traditions/"
+    "image": "images/bonding.jpg",
+    "link": "https://www.betterup.com/blog/family-traditions"
   },
   {
     "title": "Supporting Children’s Education at Home",
     "description": "Learn how parents can actively support learning, motivation, and academic success at home.",
-    "image": "images/education.jpg",
-    "link": "https://www.edutopia.org/article/parental-involvement-research"
+    "image": "images/educate.jpg",
+    "link": "https://calgarypreschools.ca/blog/8+Ways+You+Can+Be+Involved+in+Your+Child039s+Education+While+at+Home/58"
   }
 ]

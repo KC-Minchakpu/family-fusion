@@ -1,6 +1,6 @@
 const posts = [
   {
-    "image": "images/family-communication.jpg",
+    "image": "images/communication.jpg",
     "category": "Family Life, Communication",
     "date": "2023-06-01",
     "title": "Building Stronger Family Communication",
@@ -10,7 +10,7 @@ const posts = [
     "link": "https://www.betterhealth.vic.gov.au/health/healthyliving/relationships-and-communication"
   },
   {
-    "image": "images/parenting.jpg",
+    "image": "images/educate.jpg",
     "category": "Parenting, Development",
     "date": "2023-03-15",
     "title": "Positive Parenting for Lifelong Impact",
