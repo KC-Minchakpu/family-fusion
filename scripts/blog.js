@@ -20,7 +20,7 @@ const posts = [
     "link": "https://www.cdc.gov/parents/essentials/index.html"
   },
   {
-    "image": "images/family-time.jpg",
+    "image": "images/time.jpg",
     "category": "Family Bonding, Lifestyle",
     "date": "2022-09-10",
     "title": "The Power of Quality Family Time",
@@ -30,7 +30,7 @@ const posts = [
     "link": "https://www.extension.umn.edu/family/family-traditions/"
   },
   {
-    "image": "images/support-family.jpg",
+    "image": "images/support.jpg",
     "category": "Support, Relationships",
     "date": "2023-01-20",
     "title": "Creating a Supportive Family Environment",
