@@ -305,6 +305,86 @@ h1, h2, h3 {
   background: #e09b00;
 }
 
+/* -- Why Join Section -- */
+.why-attend {
+  padding: 80px 20px;
+  background: #f4f4f4;
+}
+
+.why-attend .container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.why-card {
+  background: var(--primary-color);
+  padding: 50px 30px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+.why-label {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--secondary-color);
+  letter-spacing: 1px;
+}
+
+.why-card h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: var(--secondary-color);
+}
+
+.why-intro {
+  color: var(--background-color);
+  margin-bottom: 25px;
+}
+
+.why-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 25px;
+  color: var(--navbar-color);
+}
+
+.why-list li {
+  margin: 10px 0;
+  color: var(--background-color);
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.why-list li::before {
+  content: "✔";
+  color: var(--secondary-color);
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.why-note {
+  color: var(--background-color);
+  margin-bottom: 20px;
+}
+
+.why-btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background: var(--primary-color);
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.why-btn:hover {
+  background: var(--secondary-color);
+}
+
 /* -- Sessions Page -- */
 
 .sessions {
