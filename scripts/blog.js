@@ -40,7 +40,7 @@ const posts = [
     "link": "https://www.apa.org/topics/family-life"
   },
   {
-    "image": "images/mindful-family.jpg",
+    "image": "images/mindfulness.jpg",
     "category": "Mindfulness, Family Life",
     "date": "2022-11-05",
     "title": "Practicing Mindfulness as a Family",
@@ -50,7 +50,7 @@ const posts = [
     "link": "https://www.mayoclinic.org/tests-procedures/meditation/in-depth/mindfulness-exercises/art-20046356"
   },
   {
-    "image": "images/healthy-living.jpg",
+    "image": "images/healthy.jpg",
     "category": "Health, Family Wellness",
     "date": "2023-04-01",
     "title": "Promoting Healthy Living in the Family",
@@ -70,7 +70,7 @@ const posts = [
     "link": "https://www.helpguide.org/articles/relationships-communication/conflict-resolution-skills.htm"
   },
   {
-    "image": "images/routines.jpg",
+    "image": "images/bonding.jpg",
     "category": "Family Life, Structure",
     "date": "2021-08-18",
     "title": "Creating Healthy Family Routines",
@@ -90,7 +90,7 @@ const posts = [
     "link": "https://www.gottman.com/blog/"
   },
   {
-    "image": "images/teens.jpg",
+    "image": "images/adolescents.jpg",
     "category": "Parenting, Adolescents",
     "date": "2023-01-05",
     "title": "Understanding and Parenting Teenagers",
@@ -110,7 +110,7 @@ const posts = [
     "link": "https://www.consumerfinance.gov/consumer-tools/"
   },
   {
-    "image": "images/digital.jpg",
+    "image": "images/digital-safety.jpg",
     "category": "Technology, Parenting",
     "date": "2023-02-25",
     "title": "Raising Digitally Responsible Children",
@@ -120,7 +120,7 @@ const posts = [
     "link": "https://www.commonsensemedia.org/family-tech-planners"
   },
   {
-    "image": "images/emotions.jpg",
+    "image": "images/emotional-intelligence.jpg",
     "category": "Emotional Development, Children",
     "date": "2022-10-14",
     "title": "Helping Children Build Emotional Intelligence",
@@ -140,7 +140,7 @@ const posts = [
     "link": "https://www.stepfamilies.info/"
   },
   {
-    "image": "images/education-support.jpg",
+    "image": "images/educate.jpg",
     "category": "Education, Parenting",
     "date": "2023-01-12",
     "title": "Supporting Children’s Learning at Home",
